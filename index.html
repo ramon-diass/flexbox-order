@@ -4,18 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Order</title>
+    <style>
+        .conteiner{
+            background-color: lightsalmon;
+            display: flex;
+        }
+        .item{
+            background-color: lightskyblue;
+            border: 1px solid black;
+            flex: auto;
+            text-align: center;
+            padding: 20px;
+        }
+        #id1{
+            order: 0;
+        }
+        #id2{
+            order: -2;
+        }
+        #id3{
+            order: 4;
+        }
+        #id4{
+            order: 8;
+        }
+        #id5{
+            order: 2;
+        }
+        #id6{
+            order: 0;
+        }
+        #id7{
+            order: -4;
+        }
+    </style>
 </head>
 <body>
-    <main class="container">
-        <section class="item">
-            <div>A</div>
-            <div>B</div>
-            <div>C</div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-        </section>
-    </main>
+    <div class="conteiner">
+        <div class="item" id="id1">A</div>
+        <div class="item" id="id2">B</div>
+        <div class="item" id="id3">C</div>
+        <div class="item" id="id4">D</div>
+        <div class="item" id="id5">E</div>
+        <div class="item" id="id6">F</div>
+        <div class="item" id="id7">G</div>
+    </div>
 </body>
 </html>
